@@ -238,5 +238,39 @@ button:active {
 }
 .l.M_hijos2 > :nth-child(3){
     width: 100%;
+}
+
+.l-S_cuadros{
+    width: 100%;
+    height: calc(100% / 3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen, .noticia{
+    width: calc(50% - 40px);
+    height: 80%;
+    border: inherit;
+   margin: 20px;
+}
+
+.imagen{
+    background-image: url(../img/img2.avif);
+    background-size: 100%;
+}
+
+.noticia{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    background-color: #ade8f4;
+}
+
+.noticia > :nth-child(3){
+    grid-column: span 2;
+}
+
+.div{
     border: 1px solid black;
 }
