@@ -20,3 +20,55 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr 1fr;
 }
+
+.campos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.Dcuadros{
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.campos > :nth-child(1), .campos > :nth-child(3){
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    border: 1 px solid black;
+
+}
+
+.campos > :nth-child(2), .campos > :nth-child(4){
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    border: 1 px solid black;
+}
+
+.Cuadrobolita1{
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+}
+
+.Cuadrobolita2{
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+    grid-column: 2;
+}
+
+.Dbolita1,.Dbolita3{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.Dbolita2,.Dbolita4{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
