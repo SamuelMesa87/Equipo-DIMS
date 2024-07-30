@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -27,16 +29,23 @@
     align-items: center;
     background-color: #03045e;
     color: #fff;
+    
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
 }
 
 .r-i-circulo{
-    width: 300px;
+    width: 350px;
     height: 300px;
     border: 1px solid #20232e;
     border-radius: 50%;
     z-index: -1;
     position: absolute;
-    margin-bottom: 80px;
 }
 
 .campos{
@@ -256,7 +265,7 @@ button:active {
 }
 
 .imagen{
-    background-image: url(../img/img2.avif);
+    background-image: url(../img/imgazul.jpg);
     background-size: 100%;
 }
 
